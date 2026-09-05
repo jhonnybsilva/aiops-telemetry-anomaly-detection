@@ -1,0 +1,11 @@
+server_id,role,region,specs
+srv-web-01,Web Server,sa-east-1,"16 vCPU, 32GB RAM"
+srv-web-02,Web Server,sa-east-1,"16 vCPU, 32GB RAM"
+srv-web-03,Web Server,us-east-1,"16 vCPU, 32GB RAM"
+srv-api-01,API Gateway,sa-east-1,"32 vCPU, 64GB RAM"
+srv-api-02,API Gateway,sa-east-1,"32 vCPU, 64GB RAM"
+srv-api-03,API Gateway,us-east-1,"32 vCPU, 64GB RAM"
+srv-db-primary,Database Primary,sa-east-1,"64 vCPU, 256GB RAM"
+srv-db-replica,Database Replica,sa-east-1,"64 vCPU, 256GB RAM"
+srv-edge-gw-01,Edge Gateway,sa-east-1,"16 vCPU, 32GB RAM"
+srv-cache-01,In-Memory Cache,sa-east-1,"32 vCPU, 128GB RAM"
