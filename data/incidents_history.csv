@@ -1,0 +1,44 @@
+incident_id,server_id,start_time,end_time,incident_type,severity,mttr_minutes,root_cause
+INC-1001,srv-web-01,2026-08-07T04:16:00,2026-08-07T05:52:00,Disk_Saturation,CRITICAL,96,Saturacao extrema de leitura/escrita e filas de buffer bloqueadas
+INC-1002,srv-web-01,2026-08-13T06:08:00,2026-08-13T08:40:00,Memory_Leak,HIGH,152,Vazamento progressivo de ponteiros e memoria nao liberada na aplicacao
+INC-1003,srv-web-01,2026-08-06T18:32:00,2026-08-06T22:24:00,DDoS_Attack,CRITICAL,232,Inundacao massiva de requisicoes SYN / HTTP Flood
+INC-1004,srv-web-01,2026-08-28T23:36:00,2026-08-29T02:56:00,DDoS_Attack,CRITICAL,200,Inundacao massiva de requisicoes SYN / HTTP Flood
+INC-1005,srv-web-01,2026-08-03T11:12:00,2026-08-03T13:04:00,Memory_Leak,HIGH,112,Vazamento progressivo de ponteiros e memoria nao liberada na aplicacao
+INC-1006,srv-web-02,2026-08-25T02:32:00,2026-08-25T04:08:00,Memory_Leak,HIGH,96,Vazamento progressivo de ponteiros e memoria nao liberada na aplicacao
+INC-1007,srv-web-02,2026-09-03T16:40:00,2026-09-03T20:32:00,Thermal_Throttling,HIGH,232,Falha no subsistema de refrigeracao e acionamento de throttling termico
+INC-1008,srv-web-02,2026-08-12T03:20:00,2026-08-12T06:48:00,Disk_Saturation,CRITICAL,208,Saturacao extrema de leitura/escrita e filas de buffer bloqueadas
+INC-1009,srv-web-03,2026-08-09T08:56:00,2026-08-09T12:16:00,Disk_Saturation,CRITICAL,200,Saturacao extrema de leitura/escrita e filas de buffer bloqueadas
+INC-1010,srv-web-03,2026-08-14T18:08:00,2026-08-14T20:16:00,Memory_Leak,HIGH,128,Vazamento progressivo de ponteiros e memoria nao liberada na aplicacao
+INC-1011,srv-web-03,2026-08-17T10:16:00,2026-08-17T12:16:00,DDoS_Attack,CRITICAL,120,Inundacao massiva de requisicoes SYN / HTTP Flood
+INC-1012,srv-api-01,2026-08-06T12:16:00,2026-08-06T15:20:00,Disk_Saturation,CRITICAL,184,Saturacao extrema de leitura/escrita e filas de buffer bloqueadas
+INC-1013,srv-api-01,2026-08-29T14:00:00,2026-08-29T16:40:00,DDoS_Attack,CRITICAL,160,Inundacao massiva de requisicoes SYN / HTTP Flood
+INC-1014,srv-api-01,2026-08-23T00:24:00,2026-08-23T04:16:00,DDoS_Attack,CRITICAL,232,Inundacao massiva de requisicoes SYN / HTTP Flood
+INC-1015,srv-api-01,2026-08-19T08:00:00,2026-08-19T09:52:00,Disk_Saturation,CRITICAL,112,Saturacao extrema de leitura/escrita e filas de buffer bloqueadas
+INC-1016,srv-api-02,2026-08-30T06:08:00,2026-08-30T09:12:00,Memory_Leak,HIGH,184,Vazamento progressivo de ponteiros e memoria nao liberada na aplicacao
+INC-1017,srv-api-02,2026-09-03T04:08:00,2026-09-03T06:00:00,DDoS_Attack,CRITICAL,112,Inundacao massiva de requisicoes SYN / HTTP Flood
+INC-1018,srv-api-02,2026-09-01T04:56:00,2026-09-01T07:28:00,Disk_Saturation,CRITICAL,152,Saturacao extrema de leitura/escrita e filas de buffer bloqueadas
+INC-1019,srv-api-02,2026-08-05T17:44:00,2026-08-05T20:16:00,DDoS_Attack,CRITICAL,152,Inundacao massiva de requisicoes SYN / HTTP Flood
+INC-1020,srv-api-02,2026-08-19T09:44:00,2026-08-19T12:24:00,Thermal_Throttling,HIGH,160,Falha no subsistema de refrigeracao e acionamento de throttling termico
+INC-1021,srv-api-03,2026-08-18T17:04:00,2026-08-18T19:20:00,Disk_Saturation,CRITICAL,136,Saturacao extrema de leitura/escrita e filas de buffer bloqueadas
+INC-1022,srv-api-03,2026-08-18T06:40:00,2026-08-18T09:04:00,Disk_Saturation,CRITICAL,144,Saturacao extrema de leitura/escrita e filas de buffer bloqueadas
+INC-1023,srv-api-03,2026-09-03T01:12:00,2026-09-03T03:04:00,Memory_Leak,HIGH,112,Vazamento progressivo de ponteiros e memoria nao liberada na aplicacao
+INC-1024,srv-api-03,2026-08-26T10:00:00,2026-08-26T12:32:00,Memory_Leak,HIGH,152,Vazamento progressivo de ponteiros e memoria nao liberada na aplicacao
+INC-1025,srv-api-03,2026-08-23T03:28:00,2026-08-23T06:40:00,Disk_Saturation,CRITICAL,192,Saturacao extrema de leitura/escrita e filas de buffer bloqueadas
+INC-1026,srv-db-primary,2026-09-02T10:16:00,2026-09-02T14:08:00,Memory_Leak,HIGH,232,Vazamento progressivo de ponteiros e memoria nao liberada na aplicacao
+INC-1027,srv-db-primary,2026-09-02T06:24:00,2026-09-02T09:20:00,DDoS_Attack,CRITICAL,176,Inundacao massiva de requisicoes SYN / HTTP Flood
+INC-1028,srv-db-primary,2026-08-12T12:48:00,2026-08-12T14:32:00,Disk_Saturation,CRITICAL,104,Saturacao extrema de leitura/escrita e filas de buffer bloqueadas
+INC-1029,srv-db-primary,2026-08-20T08:48:00,2026-08-20T11:28:00,DDoS_Attack,CRITICAL,160,Inundacao massiva de requisicoes SYN / HTTP Flood
+INC-1030,srv-db-primary,2026-08-11T17:04:00,2026-08-11T21:04:00,Disk_Saturation,CRITICAL,240,Saturacao extrema de leitura/escrita e filas de buffer bloqueadas
+INC-1031,srv-db-replica,2026-08-31T22:32:00,2026-09-01T02:08:00,Thermal_Throttling,HIGH,216,Falha no subsistema de refrigeracao e acionamento de throttling termico
+INC-1032,srv-db-replica,2026-08-31T08:48:00,2026-08-31T12:16:00,Memory_Leak,HIGH,208,Vazamento progressivo de ponteiros e memoria nao liberada na aplicacao
+INC-1033,srv-db-replica,2026-08-14T03:52:00,2026-08-14T06:00:00,Memory_Leak,HIGH,128,Vazamento progressivo de ponteiros e memoria nao liberada na aplicacao
+INC-1034,srv-edge-gw-01,2026-08-27T15:44:00,2026-08-27T19:36:00,Disk_Saturation,CRITICAL,232,Saturacao extrema de leitura/escrita e filas de buffer bloqueadas
+INC-1035,srv-edge-gw-01,2026-08-28T17:04:00,2026-08-28T20:24:00,Thermal_Throttling,HIGH,200,Falha no subsistema de refrigeracao e acionamento de throttling termico
+INC-1036,srv-edge-gw-01,2026-08-18T14:00:00,2026-08-18T16:32:00,Memory_Leak,HIGH,152,Vazamento progressivo de ponteiros e memoria nao liberada na aplicacao
+INC-1037,srv-edge-gw-01,2026-08-25T07:12:00,2026-08-25T10:48:00,DDoS_Attack,CRITICAL,216,Inundacao massiva de requisicoes SYN / HTTP Flood
+INC-1038,srv-edge-gw-01,2026-08-04T06:00:00,2026-08-04T08:00:00,Memory_Leak,HIGH,120,Vazamento progressivo de ponteiros e memoria nao liberada na aplicacao
+INC-1039,srv-cache-01,2026-08-09T09:20:00,2026-08-09T12:40:00,DDoS_Attack,CRITICAL,200,Inundacao massiva de requisicoes SYN / HTTP Flood
+INC-1040,srv-cache-01,2026-08-19T14:56:00,2026-08-19T18:08:00,Thermal_Throttling,HIGH,192,Falha no subsistema de refrigeracao e acionamento de throttling termico
+INC-1041,srv-cache-01,2026-08-26T04:32:00,2026-08-26T07:12:00,DDoS_Attack,CRITICAL,160,Inundacao massiva de requisicoes SYN / HTTP Flood
+INC-1042,srv-cache-01,2026-09-02T01:36:00,2026-09-02T03:36:00,Disk_Saturation,CRITICAL,120,Saturacao extrema de leitura/escrita e filas de buffer bloqueadas
+INC-1043,srv-cache-01,2026-08-31T06:40:00,2026-08-31T09:36:00,DDoS_Attack,CRITICAL,176,Inundacao massiva de requisicoes SYN / HTTP Flood
